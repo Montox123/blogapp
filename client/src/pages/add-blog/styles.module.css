@@ -1,0 +1,62 @@
+/* styles.module.css */
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('C:\Users\ankit\OneDrive\Desktop\ppt\client\src\pages\add-blog\1.jpg');
+  background-size: cover;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3498db;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
